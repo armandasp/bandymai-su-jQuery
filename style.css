@@ -1,0 +1,54 @@
+body {
+  font-family: monospace;
+  text-align: center;
+}
+
+h1{
+  font-size: 30px;
+  line-height: 2;
+}
+h2{
+  background: #ccc;
+  color: blue;
+  font-size: 24px;
+  line-height: 2;
+  border-bottom: 1px solid red;
+}
+ul{
+  width: 100%;
+  background: #ccc;
+  display: none;
+}
+li{
+  font-size: 20px;
+  text-align: center;
+  line-height: 2;
+  color: blue;
+}
+.box{
+  width: 100px;
+  height: 100px;
+  background: blue;
+  margin: 20px;
+}
+.main{
+  width: 60%;
+  margin: auto;
+}
+.gallery{
+  width: 60%;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+.gallery img{
+  width: 33.33%;
+}
+.coin{
+  width: 50px;
+  position: absolute;
+}
+h3{
+  font-size: 30px;
+}
